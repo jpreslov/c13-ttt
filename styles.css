@@ -1,0 +1,53 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.board {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.row {
+  margin: 0 auto;
+  clear: both;
+  width: 302px;
+}
+
+.row > div {
+  float: left;
+  height: 100px;
+  width: 100px;
+  font-family: "Long Cang", cursive;
+  font-size: 95px;
+  /* text-align: center; */
+}
+
+.row > div:hover {
+  cursor: pointer;
+  background-color: rgb(132, 207, 182);
+}
+
+.win-text {
+  height: 30px;
+}
+
+.top {
+  border-bottom: 1px black solid;
+}
+
+.bottom {
+  border-top: 1px black solid;
+}
+
+.left {
+  border-right: 1px black solid;
+}
+
+.right {
+  border-left: 1px black solid;
+}
+
+#restart-btn {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bold;
+}
